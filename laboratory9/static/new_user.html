@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Registration</h2>
+    <h3 style="color: green">{{.name}} {{.last_name}}</h3>
+    <form action="/new_user" method="post">
+    <div>
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Name">
+    </div>
+    <div style="height: 10px">
+
+    </div>
+    <div>
+        <label for="last_name"></label>
+        <input type="text" name="last_name" id="last_name" placeholder="Last name">
+    </div>
+    <div style="height: 10px">
+
+    </div>
+    <div>
+        <label for="age"></label>
+        <input type="number" name="age" id="age" placeholder="Age">
+    </div>
+    <div style="height: 10px">
+
+    </div>
+    <div>
+        <label for="favoriteManga"></label>
+        <input type="text" name="favoriteManga" id="favoriteManga" placeholder="Favorite manga">
+    </div>
+    <div style="height: 10px">
+
+    </div>
+    <div>
+        <button type="submit">register</button>
+    </div>
+    </form>
+</body>
+</html>
